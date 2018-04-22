@@ -51,13 +51,13 @@ Or better yet, take a minute and install it. :-)
 
     {
 		disabled: false,
-		module: "MMM-WWI",
+		module: "MMM-WWI2",
 		position: "top_bar",                  // top_bar or bottom_bar
 		config: {
 			apiKey: "YOUR API KEY GOES HERE", // Free API key @ https://darksky.net
 			lat: "YOUR LATITUDE GOES HERE",   // Your latitude goes here
 			lng: "YOUR LONGITUDE GOES HERE",  // Your longitude goes here
-			tempUnits: "C",		              // C and km or F and miles
+			tempUnits: "C",		              // C with km or F with miles miles
 			useHeader: false,                 // true if you want a header                 
 			header: "Weather Without Icons",
 			maxWidth: "100%",
